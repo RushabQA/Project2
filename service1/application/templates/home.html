@@ -1,0 +1,10 @@
+{% block body_content %}
+<h1>Home Page</h1>
+
+<h2>Welcome To The Workout And Playlist Simulator!</h2>
+<h3>{{ combine }}</h3>
+
+<form methods='GET' action='{{ url_for('home') }}'>
+<button type=submit>Generate</button>
+</form>
+
